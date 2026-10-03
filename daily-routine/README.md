@@ -1,56 +1,121 @@
-# Welcome to your Expo app 👋
+# Daily Routine
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple student productivity app built to manage daily tasks, study time, and personal goals.
 
-## Get started
+## About the Project
 
-1. Install dependencies
+Daily Routine is a student project created by **Karan Dev** using React Native and Expo.
 
-   ```bash
-   npm install
-   ```
+The app helps students organize their everyday routine by adding tasks, selecting specific times, receiving daily reminders, and tracking daily progress.
 
-2. Start the app
+## Features
 
-   ```bash
-   npx expo start
-   ```
+- Add daily tasks
+- Select a specific time for each task
+- Daily task reminders
+- Mark tasks as completed
+- Delete tasks
+- Reset daily tasks
+- Track completion progress
+- Track remaining tasks
+- Current streak tracking
+- Automatically save tasks
+- About App section
+- Clean and simple student-friendly interface
 
-In the output, you'll find options to open the app in a
+## Technology Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- AsyncStorage
+- Expo Notifications
+- React Native DateTimePicker
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+daily-routine/
+├── src/
+│   ├── app/
+│   │   ├── _layout.tsx
+│   │   ├── index.tsx
+│   │   └── explore.tsx
+│   ├── components/
+│   ├── constants/
+│   └── hooks/
+├── assets/
+├── app.json
+├── eas.json
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## How to Run the Project
 
-### Other setup steps
+### 1. Install dependencies
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npm install
+```
 
-## Learn more
+### 2. Start the Expo development server
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+For the Android development build:
 
-## Join the community
+```bash
+npx expo start --dev-client
+```
 
-Join our community of developers creating universal apps.
+### 3. Open the App
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The project can be opened using an Android development build.
+
+## How the App Works
+
+1. Enter a task name.
+2. Select the required time.
+3. Tap **Add Task**.
+4. The task is added to the daily routine.
+5. A daily reminder is scheduled for the selected time.
+6. Mark the task as completed when finished.
+7. The progress section updates automatically.
+8. Tasks are stored locally so they remain available when the app is reopened.
+
+## Project Information
+
+**App Name:** Daily Routine
+**Developer:** Karan Dev
+**Project Type:** Student Project
+**Technology:** React Native + Expo
+**Version:** 1.0.0
+
+## Purpose
+
+The purpose of this project is to create a simple mobile application that helps students organize their daily activities, study schedule, and personal goals in one place.
+
+## Future Improvements
+
+Possible future improvements include:
+
+- Weekly and monthly statistics
+- Multiple reminder options
+- Categories for tasks
+- Study-time tracking
+- Dark mode
+- Cloud data synchronization
+- User accounts
+
+## Developer
+
+**Karan Dev**
+
+Made with React Native & Expo.
+
+> Small progress every day leads to big results.
